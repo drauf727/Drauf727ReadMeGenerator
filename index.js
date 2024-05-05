@@ -53,8 +53,7 @@ inquirer
     }
 ])
 .then((answer) => {
-    console.log(answer.title);
-    console.log(answer.description);
+    fs.writeFile('readIt.md', answer.title, (err) => err? console.log(err) : console.log('Success'));
 })
 .catch((error) => {
     console.log(error)
