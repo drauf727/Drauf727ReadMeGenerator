@@ -65,7 +65,6 @@ inquirer
         name: "email",
         message: "Please provide your email address",
         type: "input",
-        // validate: emailValidator
     }
 ])
 .then((answer) => {
