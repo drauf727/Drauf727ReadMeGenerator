@@ -2,19 +2,19 @@
 # a  
 [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)  
 ## Table Of Contents  
-- [Description](#Description)  
-- [Installation Instructions](#InstallationInstructions)  
-- [Usage Information](#UsageInformation)  
-- [Contribution Guidelines](#ContributionGuidelines)  
-- [Testing](#Testing)  
-- [Questions](#Questions)  
+- [Description](#description)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Contribution](#contribution)  
+- [Testing](#testing)  
+- [Questions](#questions)  
 ## Description  
 a  
-## Installation Instructions  
+## Installation  
 a  
-## Usage Information  
+## Usage   
 a  
-## Contribution Guidelines  
+## Contribution    
 a  
 ## Testing  
 a  

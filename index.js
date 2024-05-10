@@ -76,19 +76,19 @@ inquirer
 # ${answer.title}  
 ${licenseGenerator(answer.license)}  
 ## Table Of Contents  
-- [Description](#Description)  
-- [Installation Instructions](#InstallationInstructions)  
-- [Usage Information](#UsageInformation)  
-- [Contribution Guidelines](#ContributionGuidelines)  
-- [Testing](#Testing)  
-- [Questions](#Questions)  
+- [Description](#description)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Contribution](#contribution)  
+- [Testing](#testing)  
+- [Questions](#questions)  
 ## Description  
 ${answer.description}  
-## Installation Instructions  
+## Installation  
 ${answer.installation}  
-## Usage Information  
+## Usage   
 ${answer.usage}  
-## Contribution Guidelines  
+## Contribution    
 ${answer.contribution}  
 ## Testing  
 ${answer.test}  
