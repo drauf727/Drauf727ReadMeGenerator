@@ -1,5 +1,5 @@
 
-# a  
+# Read Me Generator  
 [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)  
 ## Table Of Contents  
 - [Description](#description)  
@@ -9,14 +9,14 @@
 - [Testing](#testing)  
 - [Questions](#questions)  
 ## Description  
-a  
+Created a node script to make a readme  
 ## Installation  
-a  
+Inquirer is needed  
 ## Usage   
-a  
+None  
 ## Contribution    
-a  
+Me  
 ## Testing  
-a  
+No tests  
 ## Questions  
-Reach out to me on GitHub at a or by email at a  
+Reach out to me on GitHub at http://github.com/drauf727 or by email at david@mail.com  

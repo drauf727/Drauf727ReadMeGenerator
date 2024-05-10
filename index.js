@@ -93,7 +93,7 @@ ${answer.contribution}
 ## Testing  
 ${answer.test}  
 ## Questions  
-Reach out to me on GitHub at ${answer.github} or by email at ${answer.email}  
+Reach out to me on GitHub at http://github.com/${answer.github} or by email at ${answer.email}  
 `
 , 
     
