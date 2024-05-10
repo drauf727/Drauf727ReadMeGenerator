@@ -1,7 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const emailValidator = require('email-validator');
-
 const licenseGenerator = (license) => {
     if (license === 'MIT'){
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`

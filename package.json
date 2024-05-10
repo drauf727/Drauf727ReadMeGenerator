@@ -4,6 +4,7 @@
   "description": "create professional readme",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,6 @@
   },
   "homepage": "https://github.com/drauf727/ReadMeGenerator#readme",
   "dependencies": {
-    "email-validator": "^2.0.4",
     "inquirer": "^8.2.6"
   }
 }
