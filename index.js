@@ -1,5 +1,8 @@
+// Adding required dependencies 
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+// Function to add license badge to ReadMe
 const licenseGenerator = (license) => {
     if (license === 'MIT'){
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
@@ -18,8 +21,11 @@ const licenseGenerator = (license) => {
     }
 }
 
+// Inquirer prompt
 inquirer
-.prompt ([
+.prompt (
+    //Questions being asked
+    [
     {
         name: 'title',
         message: "What is your projects title?",
@@ -65,9 +71,9 @@ inquirer
         name: "email",
         message: "Please provide your email address",
         type: "input",
-        // validate: emailValidator
     }
 ])
+// Now writing to ReadMe file
 .then((answer) => {
     fs.writeFile('readIt.md', 
 `
@@ -94,7 +100,7 @@ ${answer.test}
 Reach out to me on GitHub at http://github.com/${answer.github} or by email at ${answer.email}  
 `
 , 
-    
+    //Catching errors
     (err) => err? console.log(err) : console.log('Success'));
 })
 .catch((error) => {
